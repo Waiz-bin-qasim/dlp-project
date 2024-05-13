@@ -32,6 +32,14 @@ This repository contains code for a project focused on detecting violent objects
 ## Results:
 The project has achieved promising results, with an accuracy of approximately 85% on diverse video datasets. These results demonstrate the efficacy of the YOLOv8 and DETR models in detecting violent objects and applying appropriate blurring techniques.
 
+## Directory Structure:
+- **DETR**: Contains the training code for the DETR model and scripts for downloading the dataset from Roboflow.
+- **YOLO**: Includes the training code for the YOLO model and scripts for downloading the dataset from Roboflow.
+- **main.ipynb**: This notebook comprises the main code responsible for splitting the video into frames, applying the models, blurring the detected objects, and then combining the frames to reconstruct the video.
+
+## Note on Trained Models:
+- Trained models for YOLO are present in the `best.pt` file within the YOLO folder. However, the trained model for DETR could not be uploaded due to its large size. Git only allows files up to 50MB in size, whereas the DETR model exceeded this limit with a size of 189MB.
+
 ## References:
 - [YOLOv8 Ultralytics](https://github.com/ultralytics/YOLOv8)
 - [DETR: End-to-End Object Detection with Transformers](https://github.com/facebookresearch/detr)
