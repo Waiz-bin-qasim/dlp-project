@@ -24,7 +24,7 @@ This repository contains code for a project focused on detecting violent objects
    ```
 2. Install dependencies:
    ```
-   pip install -r requirements.txt
+   pip install opencv-python yolov5 torchvision
    ```
 3. Obtain necessary model weights and configurations for YOLOv8 and DETR.
 4. Prepare Roboflow dataset for training and validation.
